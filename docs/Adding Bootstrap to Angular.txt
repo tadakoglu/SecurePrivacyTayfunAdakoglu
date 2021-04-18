@@ -1,0 +1,17 @@
+1) npm install bootstrap --save
+2) npm install jquery --save
+3) npm install popper.js --save
+4) In angular.json add
+
+"styles": [   
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "styles.css"
+],
+"scripts": [  
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/popper.js/dist/umd/popper.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+],
+
+5) npm i bootstrap-icons --save
+6) add styles.css @import "~bootstrap-icons/font/bootstrap-icons.css";
